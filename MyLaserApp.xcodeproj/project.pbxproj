@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE73E8941A59457600441D40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE73E8931A59457600441D40 /* UIKit.framework */; };
+		CE73E8961A59457600441D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE73E8951A59457600441D40 /* Foundation.framework */; };
+		CE73E8981A59457600441D40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE73E8971A59457600441D40 /* CoreGraphics.framework */; };
+		CE73E89E1A59457600441D40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE73E89C1A59457600441D40 /* InfoPlist.strings */; };
+		CE73E8A01A59457600441D40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73E89F1A59457600441D40 /* main.m */; };
+		CE73E8A41A59457600441D40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73E8A31A59457600441D40 /* AppDelegate.m */; };
+		CE73E8A71A59457600441D40 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE73E8A51A59457600441D40 /* MainStoryboard.storyboard */; };
+		CE73E8AA1A59457600441D40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73E8A91A59457600441D40 /* ViewController.m */; };
+		CE73E8B21A59457700441D40 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE73E8B11A59457700441D40 /* SenTestingKit.framework */; };
+		CE73E8B31A59457700441D40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE73E8931A59457600441D40 /* UIKit.framework */; };
+		CE73E8B41A59457700441D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE73E8951A59457600441D40 /* Foundation.framework */; };
+		CE73E8BC1A59457700441D40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE73E8BA1A59457700441D40 /* InfoPlist.strings */; };
+		CE73E8BF1A59457800441D40 /* MyLaserAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73E8BE1A59457800441D40 /* MyLaserAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE73E8B51A59457700441D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE73E8861A59457400441D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE73E88E1A59457500441D40;
+			remoteInfo = MyLaserApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE73E88F1A59457500441D40 /* MyLaserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLaserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE73E8931A59457600441D40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE73E8951A59457600441D40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE73E8971A59457600441D40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE73E89B1A59457600441D40 /* MyLaserApp-Info.plist */ = {isa = PBXFileReference; path = "MyLaserApp-Info.plist"; sourceTree = "<group>"; };
+		CE73E89D1A59457600441D40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE73E89F1A59457600441D40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE73E8A11A59457600441D40 /* MyLaserApp-Prefix.pch */ = {isa = PBXFileReference; path = "MyLaserApp-Prefix.pch"; sourceTree = "<group>"; };
+		CE73E8A21A59457600441D40 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE73E8A31A59457600441D40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE73E8A61A59457600441D40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE73E8A81A59457600441D40 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CE73E8A91A59457600441D40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE73E8B01A59457700441D40 /* MyLaserAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLaserAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE73E8B11A59457700441D40 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE73E8B91A59457700441D40 /* MyLaserAppTests-Info.plist */ = {isa = PBXFileReference; path = "MyLaserAppTests-Info.plist"; sourceTree = "<group>"; };
+		CE73E8BB1A59457700441D40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE73E8BD1A59457800441D40 /* MyLaserAppTests.h */ = {isa = PBXFileReference; path = MyLaserAppTests.h; sourceTree = "<group>"; };
+		CE73E8BE1A59457800441D40 /* MyLaserAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLaserAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE73E88C1A59457500441D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE73E8941A59457600441D40 /* UIKit.framework in Frameworks */,
+				CE73E8961A59457600441D40 /* Foundation.framework in Frameworks */,
+				CE73E8981A59457600441D40 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE73E8AC1A59457700441D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE73E8B21A59457700441D40 /* SenTestingKit.framework in Frameworks */,
+				CE73E8B31A59457700441D40 /* UIKit.framework in Frameworks */,
+				CE73E8B41A59457700441D40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE73E8841A59457400441D40 = {
+			isa = PBXGroup;
+			children = (
+				CE73E8991A59457600441D40 /* MyLaserApp */,
+				CE73E8B71A59457700441D40 /* MyLaserAppTests */,
+				CE73E8921A59457600441D40 /* Frameworks */,
+				CE73E8901A59457500441D40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE73E8901A59457500441D40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE73E88F1A59457500441D40 /* MyLaserApp.app */,
+				CE73E8B01A59457700441D40 /* MyLaserAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE73E8921A59457600441D40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE73E8931A59457600441D40 /* UIKit.framework */,
+				CE73E8951A59457600441D40 /* Foundation.framework */,
+				CE73E8971A59457600441D40 /* CoreGraphics.framework */,
+				CE73E8B11A59457700441D40 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE73E8991A59457600441D40 /* MyLaserApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE73E8A21A59457600441D40 /* AppDelegate.h */,
+				CE73E8A31A59457600441D40 /* AppDelegate.m */,
+				CE73E8A51A59457600441D40 /* MainStoryboard.storyboard */,
+				CE73E8A81A59457600441D40 /* ViewController.h */,
+				CE73E8A91A59457600441D40 /* ViewController.m */,
+				CE73E89A1A59457600441D40 /* Supporting Files */,
+			);
+			path = MyLaserApp;
+			sourceTree = "<group>";
+		};
+		CE73E89A1A59457600441D40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE73E89B1A59457600441D40 /* MyLaserApp-Info.plist */,
+				CE73E89C1A59457600441D40 /* InfoPlist.strings */,
+				CE73E89F1A59457600441D40 /* main.m */,
+				CE73E8A11A59457600441D40 /* MyLaserApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE73E8B71A59457700441D40 /* MyLaserAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE73E8BD1A59457800441D40 /* MyLaserAppTests.h */,
+				CE73E8BE1A59457800441D40 /* MyLaserAppTests.m */,
+				CE73E8B81A59457700441D40 /* Supporting Files */,
+			);
+			path = MyLaserAppTests;
+			sourceTree = "<group>";
+		};
+		CE73E8B81A59457700441D40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE73E8B91A59457700441D40 /* MyLaserAppTests-Info.plist */,
+				CE73E8BA1A59457700441D40 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE73E88E1A59457500441D40 /* MyLaserApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE73E8C21A59457800441D40 /* Build configuration list for PBXNativeTarget "MyLaserApp" */;
+			buildPhases = (
+				CE73E88B1A59457500441D40 /* Sources */,
+				CE73E88C1A59457500441D40 /* Frameworks */,
+				CE73E88D1A59457500441D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLaserApp;
+			productName = MyLaserApp;
+			productReference = CE73E88F1A59457500441D40 /* MyLaserApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE73E8AF1A59457700441D40 /* MyLaserAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE73E8C51A59457800441D40 /* Build configuration list for PBXNativeTarget "MyLaserAppTests" */;
+			buildPhases = (
+				CE73E8AB1A59457700441D40 /* Sources */,
+				CE73E8AC1A59457700441D40 /* Frameworks */,
+				CE73E8AD1A59457700441D40 /* Resources */,
+				CE73E8AE1A59457700441D40 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE73E8B61A59457700441D40 /* PBXTargetDependency */,
+			);
+			name = MyLaserAppTests;
+			productName = MyLaserAppTests;
+			productReference = CE73E8B01A59457700441D40 /* MyLaserAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE73E8861A59457400441D40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE73E8891A59457400441D40 /* Build configuration list for PBXProject "MyLaserApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE73E8841A59457400441D40;
+			productRefGroup = CE73E8901A59457500441D40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE73E88E1A59457500441D40 /* MyLaserApp */,
+				CE73E8AF1A59457700441D40 /* MyLaserAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE73E88D1A59457500441D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE73E89E1A59457600441D40 /* InfoPlist.strings in Resources */,
+				CE73E8A71A59457600441D40 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE73E8AD1A59457700441D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE73E8BC1A59457700441D40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE73E8AE1A59457700441D40 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE73E88B1A59457500441D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE73E8A01A59457600441D40 /* main.m in Sources */,
+				CE73E8A41A59457600441D40 /* AppDelegate.m in Sources */,
+				CE73E8AA1A59457600441D40 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE73E8AB1A59457700441D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE73E8BF1A59457800441D40 /* MyLaserAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE73E8B61A59457700441D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE73E88E1A59457500441D40 /* MyLaserApp */;
+			targetProxy = CE73E8B51A59457700441D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE73E89C1A59457600441D40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE73E89D1A59457600441D40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE73E8A51A59457600441D40 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE73E8A61A59457600441D40 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CE73E8BA1A59457700441D40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE73E8BB1A59457700441D40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE73E8C01A59457800441D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE73E8C11A59457800441D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE73E8C31A59457800441D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLaserApp/MyLaserApp-Prefix.pch";
+				INFOPLIST_FILE = "MyLaserApp/MyLaserApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE73E8C41A59457800441D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLaserApp/MyLaserApp-Prefix.pch";
+				INFOPLIST_FILE = "MyLaserApp/MyLaserApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE73E8C61A59457800441D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyLaserApp.app/MyLaserApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLaserApp/MyLaserApp-Prefix.pch";
+				INFOPLIST_FILE = "MyLaserAppTests/MyLaserAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE73E8C71A59457800441D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyLaserApp.app/MyLaserApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLaserApp/MyLaserApp-Prefix.pch";
+				INFOPLIST_FILE = "MyLaserAppTests/MyLaserAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE73E8891A59457400441D40 /* Build configuration list for PBXProject "MyLaserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE73E8C01A59457800441D40 /* Debug */,
+				CE73E8C11A59457800441D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE73E8C21A59457800441D40 /* Build configuration list for PBXNativeTarget "MyLaserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE73E8C31A59457800441D40 /* Debug */,
+				CE73E8C41A59457800441D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE73E8C51A59457800441D40 /* Build configuration list for PBXNativeTarget "MyLaserAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE73E8C61A59457800441D40 /* Debug */,
+				CE73E8C71A59457800441D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE73E8861A59457400441D40 /* Project object */;
+}
