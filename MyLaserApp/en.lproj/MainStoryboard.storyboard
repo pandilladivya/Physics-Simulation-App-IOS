@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="6" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2177" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1173"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -12,13 +13,226 @@
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Photon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Xc5-A5-25z">
+                                <rect key="frame" x="14" y="158" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="7D2-hN-BzL">
+                                <rect key="frame" x="35" y="187" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="3fb-LI-XC0">
+                                <rect key="frame" x="81" y="140" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="QlD-Tz-Vxe">
+                                <rect key="frame" x="81" y="238" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="ED6-c8-IIU">
+                                <rect key="frame" x="140" y="187" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="59L-uJ-MiF">
+                                <rect key="frame" x="140" y="89" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="phf-UX-30Y">
+                                <rect key="frame" x="140" y="300" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Amplification Of Photons" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="I4r-KY-TN6">
+                                <rect key="frame" x="52" y="41" width="190" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="onx-CT-L4Y">
+                                <rect key="frame" x="124" y="398" width="72" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Next1:" destination="2" eventType="touchUpInside" id="rIa-Xp-KmX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AvV-P4-Tma">
+                                <rect key="frame" x="124" y="401" width="72" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Next2:" destination="2" eventType="touchUpInside" id="1x9-CV-PTP"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images.png" id="lY1-Zo-CQP">
+                                <rect key="frame" x="94" y="162" width="78" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="o2R-FD-xw5">
+                                <rect key="frame" x="14" y="68" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Stimulation of atom to release photons" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="mCh-NA-8DY">
+                                <rect key="frame" x="25" y="20" width="271" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="DB4-dM-5Tr">
+                                <rect key="frame" x="162" y="192" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="eRS-uF-ayj">
+                                <rect key="frame" x="162" y="203" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9af-Jk-Khb">
+                                <rect key="frame" x="124" y="403" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Next3:" destination="2" eventType="touchUpInside" id="dko-Qd-eIx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Atom" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="o39-e4-Ss3">
+                                <rect key="frame" x="112" y="140" width="39" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Untitled.png" id="VsM-vA-DHM">
+                                <rect key="frame" x="-20" y="104" width="291" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fully silvered mirror" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ziY-ke-wbo">
+                                <rect key="frame" x="5" y="87" width="149" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Partially silvered" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="S2A-iv-eeS">
+                                <rect key="frame" x="216" y="89" width="94" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images.png" id="UBH-hi-Fky">
+                                <rect key="frame" x="127" y="199" width="24" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images.png" id="vuW-ns-FV0">
+                                <rect key="frame" x="127" y="166" width="24" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="nHa-vI-iB7">
+                                <rect key="frame" x="100" y="208" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="eVb-5w-EAa">
+                                <rect key="frame" x="182" y="175" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="XB4-vw-3F9">
+                                <rect key="frame" x="153" y="208" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="OXx-ac-YtG">
+                                <rect key="frame" x="94" y="178" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="Rib-3j-6r9">
+                                <rect key="frame" x="118" y="186" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-61.jpeg" id="bQW-ZE-YyR">
+                                <rect key="frame" x="153" y="170" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="1.png" id="1Vi-VW-b8r">
+                                <rect key="frame" x="213" y="181" width="100" height="8"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Laser" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="v9d-u6-oDY">
+                                <rect key="frame" x="271" y="154" width="43" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="Big" destination="VsM-vA-DHM" id="LRi-ne-Ptp"/>
+                        <outlet property="al" destination="o39-e4-Ss3" id="BU6-hv-kcI"/>
+                        <outlet property="ampliLabel" destination="I4r-KY-TN6" id="OdS-kj-ufr"/>
+                        <outlet property="atomI" destination="lY1-Zo-CQP" id="voX-h8-SMO"/>
+                        <outlet property="i1" destination="o2R-FD-xw5" id="CSv-nb-t7l"/>
+                        <outlet property="i2" destination="DB4-dM-5Tr" id="qbR-un-X3s"/>
+                        <outlet property="i3" destination="eRS-uF-ayj" id="94b-sS-xUJ"/>
+                        <outlet property="las" destination="1Vi-VW-b8r" id="oqV-yL-541"/>
+                        <outlet property="ll" destination="v9d-u6-oDY" id="0IN-wp-v3R"/>
+                        <outlet property="nb1" destination="onx-CT-L4Y" id="tnr-3o-Izk"/>
+                        <outlet property="nb2" destination="AvV-P4-Tma" id="BFE-Gj-JyD"/>
+                        <outlet property="nb3" destination="9af-Jk-Khb" id="iXt-6A-2Km"/>
+                        <outlet property="photonLabel" destination="Xc5-A5-25z" id="FUk-UQ-lck"/>
+                        <outlet property="pi1" destination="7D2-hN-BzL" id="ARP-dS-YMI"/>
+                        <outlet property="pi2" destination="3fb-LI-XC0" id="hTw-hG-x5k"/>
+                        <outlet property="pi3" destination="QlD-Tz-Vxe" id="ih2-dH-tY4"/>
+                        <outlet property="pi4" destination="59L-uJ-MiF" id="SP9-Fo-ICe"/>
+                        <outlet property="pi5" destination="ED6-c8-IIU" id="QdK-dZ-jfz"/>
+                        <outlet property="pi6" destination="phf-UX-30Y" id="z8E-Wi-g1b"/>
+                        <outlet property="s1" destination="ziY-ke-wbo" id="RMX-iw-OYF"/>
+                        <outlet property="s2" destination="S2A-iv-eeS" id="a65-ma-RvQ"/>
+                        <outlet property="sa1" destination="UBH-hi-Fky" id="1Vk-Ow-LaX"/>
+                        <outlet property="sa2" destination="vuW-ns-FV0" id="QPj-jl-7NF"/>
+                        <outlet property="sp1" destination="OXx-ac-YtG" id="8Tm-hB-h95"/>
+                        <outlet property="sp2" destination="Rib-3j-6r9" id="dZI-3m-J1U"/>
+                        <outlet property="sp3" destination="bQW-ZE-YyR" id="4nN-O1-nQl"/>
+                        <outlet property="sp4" destination="eVb-5w-EAa" id="BtM-J8-hwL"/>
+                        <outlet property="sp5" destination="XB4-vw-3F9" id="4T2-JR-m6J"/>
+                        <outlet property="sp6" destination="nHa-vI-iB7" id="RrG-4t-O65"/>
+                        <outlet property="stimuLabel" destination="mCh-NA-8DY" id="jVv-AW-gcZ"/>
+                    </connections>
                 </viewController>
             </objects>
+            <point key="canvasLocation" x="-52" y="97"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.png" width="142" height="12"/>
+        <image name="Untitled.png" width="493" height="337"/>
+        <image name="images-61.jpeg" width="120" height="120"/>
+        <image name="images.png" width="113" height="108"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
